@@ -1,8 +1,8 @@
 require_relative 'grid'
-require_relative 'binary_tree'
+require_relative 'sidewinder'
 
 grid = Grid.new(10,10)
-BinaryTree.on(grid)
+Sidewinder.on(grid)
 
 puts grid
 img = grid.to_png(cell_size: 40)
